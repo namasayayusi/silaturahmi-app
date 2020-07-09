@@ -30,10 +30,10 @@ export default function SimpleContainer() {
           <div className={classes.bungkusMenuSatu}>
             <div className={classes.menuSatu}>
               {/* ------ menu Artikel ------ */}
-              <a
+              {/* <a
                 className={classes.decoration}
                 href="https://muslimgoonline.com/silaturahmi-app/artikel"
-              >
+              > */}
                 <div className={classes.paper}>
                   <img className={classes.gambar} src={Artikel} alt="Artikel" />
                   <Typography
@@ -44,14 +44,14 @@ export default function SimpleContainer() {
                     Artikel
                   </Typography>
                 </div>
-              </a>
+              {/* </a> */}
             </div>
             <div className={classes.menuSatu}>
               {/* ------ menu Event ------ */}
-              <a
+              {/* <a
                 className={classes.decoration}
                 href="https://muslimgoonline.com/silaturahmi-app/event"
-              >
+              > */}
                 <div className={classes.paper}>
                   <img className={classes.gambar} src={Event} alt="Event" />
                   <Typography
@@ -62,17 +62,17 @@ export default function SimpleContainer() {
                     Event
                   </Typography>
                 </div>
-              </a>
+              {/* </a> */}
             </div>
           </div>
 
           <div className={classes.bungkusMenuDua}>
           <div className={classes.menuSatu}>
               {/* ------ menu Donasi ------ */}
-              <a
+              {/* <a
                 className={classes.decoration}
                 href="https://muslimgoonline.com/silaturahmi-app/donasi"
-              >
+              > */}
                 <div className={classes.paper}>
                   <img className={classes.gambar} src={Donasi} alt="Donasi" />
                   <Typography
@@ -83,14 +83,14 @@ export default function SimpleContainer() {
                     Donasi
                   </Typography>
                 </div>
-              </a>
+              {/* </a> */}
             </div>
             <div className={classes.menuDua}>
               {/* ------ menu Jualan ------ */}
-              <a
+              {/* <a
                 className={classes.decoration}
                 href="https://muslimgoonline.com/aplikasi-marketing-syariah/artikel"
-              >
+              > */}
                 <div className={classes.paper}>
                   <img className={classes.gambar} src={Jualan} alt="Jualan" />
                   <Typography
@@ -101,7 +101,7 @@ export default function SimpleContainer() {
                     Jualan
                   </Typography>
                 </div>
-              </a>
+              {/* </a> */}
             </div>
           </div>
         </div>
