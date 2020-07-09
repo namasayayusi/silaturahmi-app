@@ -1,5 +1,4 @@
 import { makeStyles } from "@material-ui/core/styles";
-import background from "../../images/background-blue.jpg";
 
 export default makeStyles(theme => ({
   body: {

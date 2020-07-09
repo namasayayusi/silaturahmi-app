@@ -7,10 +7,7 @@ import Artikel from "../../images/article-white2.png";
 import Event from "../../images/event-white2.png";
 import Donasi from "../../images/donasi-white2.png";
 import Jualan from "../../images/jualan-white2.png";
-import Video from "../../images/video-white2.png";
-import LiveVideo from "../../images/live-video-white2.png";
 
-import Logo from "../../images/logo1.png";
 
 import useStyles from "./styles";
 
