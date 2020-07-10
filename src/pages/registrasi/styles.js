@@ -3,9 +3,9 @@ import { makeStyles } from "@material-ui/core/styles";
 export default makeStyles(theme => ({
   daftarBlock: {
     width: "100%",
-    height: "100%",
+    height: "100vh",
     backgroundColor: "#005f80",
-    padding: '20px',
+    padding: '50px',
   },
   daftarBox: {
     position: "relative",
