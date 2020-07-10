@@ -4,7 +4,7 @@ export default makeStyles(theme => ({
   daftarBlock: {
     width: "100%",
     height: "100vh",
-    backgroundColor: "#003399"
+    backgroundColor: "#005f80",
   },
   selamatdatang: {
       textAlign: "center",
