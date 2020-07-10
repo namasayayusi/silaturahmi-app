@@ -7,6 +7,8 @@ import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import CssBaseline from "@material-ui/core/CssBaseline";
 
+import Logo from "../../images/logo2.png";
+
 import useStyles from "./styles";
 
 import isEmail from "validator/lib/isEmail";
