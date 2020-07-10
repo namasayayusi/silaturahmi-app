@@ -5,6 +5,7 @@ export default makeStyles(theme => ({
     width: "100%",
     height: "100%",
     backgroundColor: "#005f80",
+    padding: '20px',
   },
   daftarBox: {
     position: "relative",
