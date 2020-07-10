@@ -160,11 +160,6 @@ export default function Login() {
                     </Button>
                   </Grid>
                 </Grid>
-                <div className={classes.forgetPassword}>
-                  <Typography component={Link} to="/lupa-password">
-                    Lupa Password?
-                  </Typography>
-                </div>
               </form>
             </Paper>
           </Container>
