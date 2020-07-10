@@ -101,7 +101,9 @@ export default function Login() {
       <CssBaseline />
       <div className={classes.daftarBlock}>
         <div className={classes.daftarBox}>
-          <div className={classes.logoBox}>{/* untuk logo */}</div>
+          <div className={classes.logoBox}>
+            <img className={classes.logo} src={Logo} alt="Logo" />
+          </div>
           <Container maxWidth="xs">
             <Paper className={classes.paper}>
               <Typography variant="h5" component="h1" className={classes.title}>
