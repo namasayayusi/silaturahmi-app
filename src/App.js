@@ -22,9 +22,9 @@ export default function App() {
         <FirebaseProvider>
           <Router>
             <Switch>
-              <Route path="/" exact component={Login} />
+              <Route path="/" exact component={Landing} />
               <Route path="/registrasi" component={Registrasi} />
-              <Route path="/landing" component={Landing} />
+              <Route path="/login" component={Login} />
               <Route path="/lupa-password" component={LupaPassword} />
               <PrivateRoute path="/chat" component={Chat} />
               <PrivateRoute path="/pengaturan" component={Pengaturan} />
