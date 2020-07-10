@@ -103,10 +103,10 @@ export default function Login() {
       <CssBaseline />
       <div className={classes.daftarBlock}>
         <div className={classes.daftarBox}>
-          <div className={classes.logoBox}>
-            <img className={classes.logo} src={Logo} alt="Logo" />
-          </div>
           <Container maxWidth="xs">
+            <div className={classes.logoBox}>
+              <img className={classes.logo} src={Logo} alt="Logo" />
+            </div>
             <Paper className={classes.paper}>
               <Typography variant="h5" component="h1" className={classes.title}>
                 Login
