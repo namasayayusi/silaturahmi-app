@@ -5,6 +5,7 @@ import Container from "@material-ui/core/Container";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
+import CssBaseline from "@material-ui/core/CssBaseline";
 
 import useStyles from "./styles";
 
@@ -97,6 +98,7 @@ export default function Login() {
 
   return (
     <>
+      <CssBaseline />
       <div className={classes.daftarBlock}>
         <div className={classes.daftarBox}>
           <div className={classes.logoBox}>{/* untuk logo */}</div>
