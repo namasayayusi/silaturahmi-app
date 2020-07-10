@@ -9,7 +9,7 @@ import Logo from "../../images/logo2.png";
 
 import Button from "@material-ui/core/Button";
 
-import { Link, Redirect } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Landing() {
   const classes = useStyles();
