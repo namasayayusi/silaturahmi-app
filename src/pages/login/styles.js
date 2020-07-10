@@ -14,14 +14,6 @@ export default makeStyles(theme => ({
     alignItems: "center",
     flexFlow: "column nowrap"
   },
-  logo: {
-    display: "block",
-    marginLeft: "auto",
-    marginRight: "auto",
-    paddingTop: "20%",
-    width: "40%",
-    paddingBottom: "20px"
-  },
   logoBox: {
     width: 282,
     height: 69,
