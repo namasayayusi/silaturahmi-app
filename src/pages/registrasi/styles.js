@@ -10,10 +10,7 @@ export default makeStyles(theme => ({
   daftarBox: {
     position: "relative",
     height: "100%",
-    zIndex: 2,
-    display: "flex",
     alignItems: "center",
-    flexFlow: "column nowrap"
   },
   logoBox: {
     width: 282,

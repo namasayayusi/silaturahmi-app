@@ -137,7 +137,6 @@ export default function Registrasi() {
     <CssBaseline />
       <div className={classes.daftarBlock}>
         <div className={classes.daftarBox}>
-          <div className={classes.logoBox}>{/* untuk logo */}</div>
           <Container maxWidth="xs">
             <Paper className={classes.paper}>
               <Typography variant="h5" component="h1" className={classes.title}>
