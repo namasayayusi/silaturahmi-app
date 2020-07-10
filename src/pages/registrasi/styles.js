@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 export default makeStyles(theme => ({
   daftarBlock: {
     width: "100%",
-    height: "100vh",
+    height: "100%",
     backgroundColor: "#005f80",
   },
   daftarBox: {
